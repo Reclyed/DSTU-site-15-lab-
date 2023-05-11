@@ -1,0 +1,307 @@
+@font-face {
+    font-family: Roboto;
+    src: url("../fonts/Roboto.ttf");
+}
+
+@font-face {
+    font-family: Roboto;
+    font-weight: bold;
+    src: url("../fonts/Robotobold.ttf");
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+.header {
+    background-color: #fff;
+    border-bottom: 1px #e5e5e5 solid;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    column-gap: 244px;
+}
+
+.logo {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    column-gap: 115px;
+    padding-right: 328px;
+}
+
+.menu-item {
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: #030305;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu-link:hover {
+    border-bottom: #030305 2px solid;
+}
+
+/* HEADER CONTENT */
+
+.header-content {
+    background-image: url("../img/background.png");
+    background-repeat: no-repeat;
+}
+
+.header-title {
+    margin-bottom: 40px;
+    padding-top: 105px;
+
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 88px;
+    color: #030305;
+}
+
+.header-text {
+    max-width: 502px;
+    padding-bottom: 40px;
+
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #030305;
+}
+
+.header-btn {
+    margin-bottom: 254px;
+
+    padding: 20px;
+    text-decoration: none;
+    background: #030305;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: bold;
+    line-height: 24px;
+    border: none;
+}
+
+.header-btn:hover {
+    background: rgba(3, 3, 5, 0.7);
+}
+
+.header-btn p {
+    margin-left: 33px;
+    margin-right: 33px;
+}
+
+/* AUTOPARK */
+
+.park-title {
+    font-family: Roboto;
+    font-size: 60px;
+    line-height: 70px;
+    color: #030305;
+    font-weight: bold;
+
+    margin-bottom: 40px;
+}
+
+.line-cars {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.car {
+    max-width: 384px;
+    max-height: 470px;
+}
+
+.car-img {
+    padding-bottom: 15px;
+}
+
+.car-img img {
+    vertical-align: bottom;
+    transition: all .3s;
+}
+
+.car-img:hover img{
+    transform: scale(1.1);
+}
+
+.car-title {
+    font-family: Roboto;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-weight: bold;
+    color: #030305;
+
+    margin-bottom: 17px;
+}
+
+.car-info {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    column-gap: 60px;
+}
+
+.block {
+    font-family: Roboto;
+    margin-bottom: 13px;
+}
+
+.block img {
+    margin-bottom: 10px;
+}
+
+.block > div:nth-child(2){
+    font-weight: bold;
+    padding-bottom: 6px;
+}
+
+.block > div:nth-child(3){
+    font-weight: 400;
+    color: #030305;
+}
+
+.car-btn {
+    font-family: Roboto;
+    font-weight: bold;
+    color: #fff;
+    font-size: 16px;
+
+    padding: 15px 122px 15px 122px;
+    background: #030305;
+    border: none;
+}
+
+.car-btn:hover {
+    background: rgba(3, 3, 5, 0.7);
+}
+
+/* FORM */
+
+.form-img {
+    position: absolute;
+    bottom: 0;
+    left: 401px;
+}
+
+.form .container {
+    position: relative;
+    padding-bottom: 121px;
+}
+
+.form {
+    padding-top: 60px;
+    overflow: hidden;
+    border-bottom: 1px #e5e5e5 solid;
+}
+
+.form-title {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 60px;
+    color: #030305;
+    padding-bottom: 20px;
+}
+
+.form-text {
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 20px;
+    color: #5d5d5f;
+    padding-bottom: 60px;
+}
+
+.form-form {
+    max-width: 344px;
+}
+
+.form-form input {
+    margin-bottom: 15px;
+    text-align: left;
+    width: 344px;
+    height: 65px;
+    padding: 22px 18px;
+    outline: none;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+.form-form button {
+    color: #fff;
+    background: #030305;
+    padding: 20px 116px 20px 116px;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 16px;
+    width: 100%;
+    border: none;
+}
+
+.form-form button:hover {
+    background: rgba(3, 3, 5, 0.7);
+}
+
+/* FOOTER */
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    align-items: center;
+}
+
+.copyright {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 15px;
+    color: #030305;
+
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
